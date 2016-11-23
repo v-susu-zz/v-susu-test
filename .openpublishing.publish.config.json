@@ -1,0 +1,26 @@
+{
+  "need_generate_pdf": true,
+  "need_generate_intellisense": true,
+  "docsets_to_publish": [
+    {
+      "docset_name": "v-susu-test-docsetname",
+      "build_source_folder": "v-susu-test-docsetfolder",
+      "build_output_subfolder": "v-susu-test-docsetname",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "op"
+    }
+  ],
+  "notification_subscribers": [],
+  "branches_to_filter": [],
+  "skip_source_output_uploading": false,
+  "need_preview_pull_request": true,
+  "dependent_repositories": [],
+  "need_generate_pdf_url_template": false
+}
